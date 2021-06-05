@@ -1,0 +1,54 @@
+.footer {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Lato";
+  background-color: #3c4050;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+  }
+  .trademark {
+    line-height: 14px;
+    color: #ffffff;
+  }
+  .payment {
+    display: flex;
+    &__item {
+      display: flex;
+      margin-right: 40px;
+      line-height: 18px;
+      color: #c3c3c3;
+      cursor: pointer;
+      &:last-child {
+        margin-right: 0;
+      }
+      .img {
+        width: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .contacts {
+    a {
+      margin-right: 40px;
+      line-height: 18px;
+      color: #fefefe;
+      font-weight: 400;
+      text-decoration: none;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .separation {
+    color: #c3c3c3;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+}

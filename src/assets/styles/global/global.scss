@@ -1,0 +1,25 @@
+body, p , ul {
+  margin: 0;
+  padding: 0;
+}
+
+.body-hidden {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.text-blue {
+  color: #3e9cdc;
+}
+
+.dropdown-arrow {
+  width: 8px;
+  height: 12px;
+}

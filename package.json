@@ -1,0 +1,33 @@
+{
+  "name": "tkproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "extract-text-webpack-plugin-updated": "^1.0.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "path": "^0.12.7",
+    "pug-loader": "^2.4.0",
+    "webstorm": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "node-sass": "^6.0.0",
+    "postcss-loader": "^5.3.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
